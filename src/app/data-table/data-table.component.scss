@@ -1,0 +1,65 @@
+$red: #f00;
+$green: #0f0;
+$blue: #00f;
+$cyan: #0ff;
+$magenta: #f0f;
+$yellow: #ff0;
+$black: #000;
+$white: #fff;
+
+$regular: 500;
+
+.data-table {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.mat-row {
+    cursor: pointer;
+
+    & .mat-cell {
+        transition: 0.4s;
+    } 
+}
+
+.mat-row:nth-child(2) :hover {
+    background-color: $red;
+    color: $white;
+    font-weight: $regular;
+}
+
+.mat-row:nth-child(3) :hover {
+    background-color: $green;
+    color: $white;
+    font-weight: $regular;
+}
+
+.mat-row:nth-child(4) :hover {
+    background-color: $blue;
+    color: $white;
+    font-weight: $regular;
+}
+
+.mat-row:nth-child(5) :hover {
+    background-color: $cyan;
+    color: $white;
+    font-weight: $regular;
+}
+
+.mat-row:nth-child(6) :hover {
+    background-color: $magenta;
+    color: $white;
+    font-weight: $regular;
+}
+
+.mat-row:nth-child(7) :hover {
+    background-color: $yellow;
+    color: $white;
+    font-weight: $regular;
+}
+
+.mat-row:nth-child(8) :hover {
+    background-color: $black;
+    color: $white;
+    font-weight: $regular;
+}

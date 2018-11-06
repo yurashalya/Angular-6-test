@@ -26,7 +26,7 @@
               {
                 "input": "node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css"
               },
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -78,7 +78,7 @@
               {
                 "input": "node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
               },
-              "styles.css"
+              "styles.scss"
             ],
             "scripts": [],
             "assets": [
@@ -124,5 +124,10 @@
       }
     }
   },
-  "defaultProject": "angular-material-introduction"
+  "defaultProject": "angular-material-introduction",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

@@ -5,7 +5,7 @@ import { DataTableDataSource } from './data-table-datasource';
 @Component({
   selector: 'data-table',
   templateUrl: './data-table.component.html',
-  styleUrls: ['./data-table.component.css']
+  styleUrls: ['./data-table.component.scss']
 })
 export class DataTableComponent implements OnInit {
   @ViewChild(MatPaginator) paginator: MatPaginator;
